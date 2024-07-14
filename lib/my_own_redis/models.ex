@@ -15,14 +15,16 @@ end
 defmodule MyOwnRedis.Models.RelationalTableRef do
   @type t :: %__MODULE__{
     table_ref_name: String.t,
-    column_name: String.t,
+    local_column_name: String.t,
+    local_ref: String.t,
     column_source: String.t,
     column_result: String.t
   }
 
   defstruct [
     :table_ref_name,
-    :column_name,
+    :local_column_name,
+    :local_ref,
     :column_source,
     :column_result
   ]

@@ -11,6 +11,8 @@ defmodule MyOwnRedis.Application do
       {MyOwnRedis.MemoryManager, []},
     ]
 
+    MyOwnRedis.start()
+
     opts = [strategy: :one_for_one, name: MyOwnRedis.Supervisor]
     Supervisor.start_link(children, opts)
   end
