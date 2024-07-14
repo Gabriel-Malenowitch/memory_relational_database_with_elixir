@@ -1,22 +1,11 @@
-# MyOwnRedis
-
-**TODO: Add description**
-
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `my_own_redis` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:my_own_redis, "~> 0.1.0"}
-  ]
-end
+```bash
+ # To run code example
+ mix run
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at <https://hexdocs.pm/my_own_redis>.
+# Examples tables
+![image](https://github.com/user-attachments/assets/3d195f7d-3822-4d52-9bbf-34f74c461ba7)
 
-# memory_relational_database_with_elixir
+
+# Tables filled with data
+![image](https://github.com/user-attachments/assets/296866af-f10b-47a8-85b9-9f83a67831f4)
